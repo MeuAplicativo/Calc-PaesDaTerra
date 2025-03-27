@@ -107,7 +107,8 @@
             total += precos[produto] * quantidade;
         });
 
-        document.getElementById("total").textContent = `Total: R$ ${total.toFixed(2)}`;
+        document.getElementById("total").textContent = `Total: ${total.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`;
+
     }
 
     function zerarDados() {
