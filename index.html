@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Pães da Terra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Calculadora Pães da Terra</h1>
+
+    <div id="produtos">
+        <!-- SEM GLUTEN E SEM LACTOSE -->
+        <h2>SEM GLUTEN E SEM LACTOSE</h2>
+        <h3>PÃES 600g</h3>
+        <div class="produto"><label>Pão Básico - R$ 25,00</label><input type="number" id="paoBasico600" value="0"></div>
+        <div class="produto"><label>Pão Mandioquinha - R$ 30,00</label><input type="number" id="paoMandioquinha600" value="0"></div>
+        <div class="produto"><label>Pão Tomate Seco - R$ 30,00</label><input type="number" id="paoTomateSeco600" value="0"></div>
+        <div class="produto"><label>Pão Azeitona - R$ 30,00</label><input type="number" id="paoAzeitona600" value="0"></div>
+        <div class="produto"><label>Pão Orégano - R$ 30,00</label><input type="number" id="paoOregano600" value="0"></div>
+        <div class="produto"><label>Pão Sementes - R$ 30,00</label><input type="number" id="paoSementes600" value="0"></div>
+        <div class="produto"><label>Pão Bacon e Presunto - R$ 35,00</label><input type="number" id="paoBaconPresunto600" value="0"></div>
+        <div class="produto"><label>Pão Atum - R$ 35,00</label><input type="number" id="paoAtum600" value="0"></div>
+        <div class="produto"><label>Pão Cereja e Amêndoas - R$ 35,00</label><input type="number" id="paoCerejaAmendoas600" value="0"></div>
+
+        <h3>PÃES 300g</h3>
+        <div class="produto"><label>Pão Básico - R$ 15,00</label><input type="number" id="paoBasico300" value="0"></div>
+        <div class="produto"><label>Pão Mandioquinha - R$ 20,00</label><input type="number" id="paoMandioquinha300" value="0"></div>
+        <div class="produto"><label>Pão Tomate Seco - R$ 17,50</label><input type="number" id="paoTomateSeco300" value="0"></div>
+        <div class="produto"><label>Pão Azeitona - R$ 17,50</label><input type="number" id="paoAzeitona300" value="0"></div>
+        <div class="produto"><label>Pão Orégano - R$ 17,50</label><input type="number" id="paoOregano300" value="0"></div>
+        <div class="produto"><label>Pão Sementes - R$ 17,50</label><input type="number" id="paoSementes300" value="0"></div>
+        <div class="produto"><label>Pão Bacon e Presunto - R$ 20,00</label><input type="number" id="paoBaconPresunto300" value="0"></div>
+        <div class="produto"><label>Pão Atum - R$ 20,00</label><input type="number" id="paoAtum300" value="0"></div>
+        <div class="produto"><label>Pão Cereja e Amêndoas - R$ 20,00</label><input type="number" id="paoCerejaAmendoas300" value="0"></div>
+
+        <h3>BOLOS 500g</h3>
+        <div class="produto"><label>Maçã Com Canela - R$ 32,50</label><input type="number" id="boloMaca" value="0"></div>
+        <div class="produto"><label>Ameixa Com Coco - R$ 32,50</label><input type="number" id="boloAmeixaCoco" value="0"></div>
+        <div class="produto"><label>Cacau 50% - R$ 27,50</label><input type="number" id="boloCacau" value="0"></div>
+
+        <h3>BISCOITOS 100g</h3>
+        <div class="produto"><label>Gergelim, Canela e Cacau - R$ 12,00</label><input type="number" id="biscoitoGergelim" value="0"></div>
+        <br>
+
+        <h2>TRADICIONAIS</h2>
+        <h3>PÃES</h3>
+        <div class="produto"><label>Pão Macaxeira Básico - R$ 22,50</label><input type="number" id="paoMacaxeira" value="0"></div>
+
+        <h3>PÃES - RECHEADOS SALGADOS</h3>
+        <div class="produto"><label>Calabresa - R$ 42,50</label><input type="number" id="paoCalabresa" value="0"></div>
+        <div class="produto"><label>Presunto - R$ 42,50</label><input type="number" id="paoPresunto" value="0"></div>
+        <div class="produto"><label>Frango - R$ 42,50</label><input type="number" id="paoFrango" value="0"></div>
+        <div class="produto"><label>Pimenta Biquinho - R$ 42,50</label><input type="number" id="paoPimentaBiquinho" value="0"></div>
+        <div class="produto"><label>Carne Moída e Gorgonzola - R$ 45,00</label><input type="number" id="paoCarneGorgonzola" value="0"></div>
+
+        <h3>PÃES - RECHEADOS DOCES</h3>
+        <div class="produto"><label>Rosca Flor de Coco - R$ 30,00</label><input type="number" id="paoRoscaCoco" value="0"></div>
+        <div class="produto"><label>Churros - R$ 42,50</label><input type="number" id="paoChurros" value="0"></div>
+        <div class="produto"><label>Romeu e Julieta - R$ 42,50</label><input type="number" id="paoRomeuJulieta" value="0"></div>
+        <div class="produto"><label>Pão Flor Chocolate - R$ 52,50</label><input type="number" id="paoFlorChocolate" value="0"></div>
+        <div class="produto"><label>Pão Flor Romeu e Julieta - R$ 50,00</label><input type="number" id="paoFlorRomeuJulieta" value="0"></div>
+
+        <h3>SALGADOS ASSADOS</h3>
+        <div class="produto"><label>Frango e Requeijão - R$ 7,00</label><input type="number" id="salgadoFrangoRequeijao" value="0"></div>
+        <div class="produto"><label>Presunto e Muçarela - R$ 7,00</label><input type="number" id="salgadoPresuntoMucarela" value="0"></div>
+        <div class="produto"><label>Calabresa com Requeijão - R$ 7,00</label><input type="number" id="salgadoCalabresaRequeijao" value="0"></div>
+        <div class="produto"><label>Esfiha de Carne - R$ 7,00</label><input type="number" id="salgadoEsfihaCarne" value="0"></div>
+    </div>
+
+    <div class="total" id="total">Total: R$ 0,00</div>
+
+    <button onclick="calcularTotal()">Calcular Total</button>
+    <button onclick="zerarDados()">Zerar Dados</button>
+</div>
+
+<script>
+    function calcularTotal() {
+        const precos = {
+            // SEM GLUTEN E SEM LACTOSE
+            paoBasico600: 25.00, paoMandioquinha600: 30.00, paoTomateSeco600: 30.00, paoAzeitona600: 30.00,
+            paoOregano600: 30.00, paoSementes600: 30.00, paoBaconPresunto600: 35.00, paoAtum600: 35.00,
+            paoCerejaAmendoas600: 35.00,
+            paoBasico300: 15.00, paoMandioquinha300: 20.00, paoTomateSeco300: 17.50, paoAzeitona300: 17.50,
+            paoOregano300: 17.50, paoSementes300: 17.50, paoBaconPresunto300: 20.00, paoAtum300: 20.00,
+            paoCerejaAmendoas300: 20.00,
+            boloMaca: 32.50, boloAmeixaCoco: 32.50, boloCacau: 27.50,
+            biscoitoGergelim: 12.00,
+            paoMacaxeira: 22.50,
+            paoCalabresa: 42.50, paoPresunto: 42.50, paoFrango: 42.50, paoPimentaBiquinho: 42.50,
+            paoCarneGorgonzola: 45.00,
+            paoRoscaCoco: 30.00, paoChurros: 42.50, paoRomeuJulieta: 42.50, paoFlorChocolate: 52.50,
+            paoFlorRomeuJulieta: 50.00,
+            salgadoFrangoRequeijao: 7.00, salgadoPresuntoMucarela: 7.00, salgadoCalabresaRequeijao: 7.00,
+            salgadoEsfihaCarne: 7.00
+        };
+
+        let total = 0;
+
+        Object.keys(precos).forEach((produto) => {
+            const quantidade = document.getElementById(produto).value;
+            total += precos[produto] * quantidade;
+        });
+
+        document.getElementById("total").textContent = `Total: R$ ${total.toFixed(2)}`;
+    }
+
+    function zerarDados() {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach(input => input.value = 0);
+        document.getElementById("total").textContent = 'Total: R$ 0,00';
+    }
+</script>
+
+</body>
+</html>
